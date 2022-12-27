@@ -1,26 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mempelajari cara belajar</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mempelajari cara belajar</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <div class="page">
-        <header class="header"></header>
-        <main class="content">
-            <section class="description"></section>
+  <div class="page">
+        <!-- Section 1 - Header -->
+    <header class="header">
+      <div class="logo logo_place_header">
+        <img src="./images/logo_place_header.png" alt="Header Logo Practicum">
+      </div>
+      <h1 class="header__title">Mempelajari cara belajar</h1>
+      <h2 class="header__subtitle">Cara belajar yang canggih dan paling efektif yang dapat diterapkan dalam kehidupan sehari-hari</h2>
+      <a href="#" class="header__link">Pelajari selengkapnya →</a>
+      <div class="header__main-illustration">
+        <img src="./images/header-image.png" alt="Header Image">
+      </div>
+      <div class="header__square"></div>
+    </header>
 
-            <section class="digits"></section>
+        <!-- Section 2 - Description -->
+    <main class="content">
+      <div class="description">
+        <div class="two-columns">
+          <div class="two-columns__brief">Masalah utama pendidikan</div>
+          <div class="two-columns__main-text">
+            <div class="two-columns__paragraph">Baik di sekolah maupun universitas, 
+                        satu hal yang tidak pernah diajarkan kepada Anda adalah cara mengajar diri sendiri. 
+                        Umumnya, kita hanya menghafal materi tertentu dan melatih diri untuk mengikuti 
+                        tes sehingga dapat lulus pada tes tersebut pada waktunya. Namun, setelah ujian dan tes selesai, 
+                        informasi yang Anda hafalkan tersebut seakan tidak lagi berguna, dan karenanya, 
+                        tidak ada jaminan bahwa Anda akan tetap ingat hal-hal yang telah dipelajari di sekolah. 
+                        Pada akhirnya, kita hanya belajar bagaimana cara untuk lulus ujian.</div>
+            <div class="two-columns__paragraph"><span class="two-columns__span-accent">Ini adalah pertanyaan sesungguhnya:</span>apakah dengan menghafal dan mengulang materi pelajaran, 
+                        kita benar-benar dapat memahami inti materi yang kita pelajari? Menurut konsensus akademis terkini, 
+                        jawabannya adalah tidak. Sebenarnya, alih-alih mempelajari suatu mata pelajaran, 
+                        hal yang paling penting untuk dikuasai adalah cara belajar, namun sayangnya hal ini sering terabaikan. 
+                        Jadi, apa yang bisa kita lakukan untuk memperbaiki hal ini?</div>
+            <div class="two-columns__paragraph">Ada beberapa teknik dan latihan yang dapat Anda terapkan dalam proses 
+                        pembelajaran agar prosesnya menjadi lebih efisien dan menarik. Terus gulir halaman ini untuk menemukan 
+                        berbagai rahasia untuk belajar efektif.</div>
+          </div>
+        </div>
+      </div>
+        
+        <!-- Section 3 - Digits -->
+      <div class="digits">
+        <h1 class="section-title">Fakta dan angka</h1>
+        <h2 class="section-subtitle">Tentang belajar dan otak</h2>
+        <ul class="table">
+          <li class="table__cell">
+            <h3 class="table__heading">86 miliar</h3>
+            <p class="table__text">Jumlah neuron di otak manusia</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">73%</h3>
+            <p class="table__text">Persentase orang dewasa di AS yang menganggap diri mereka sebagai pembelajar seumur hidup</p>
+            <p class="table__text">Pew Research Center</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">1.000 terabita</h3>
+            <p class="table__text">Kapasitas penyimpanan informasi manusia</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">500 triliun</h3>
+            <p class="table__text">Jumlah sinapsis saraf yang bertanggung jawab untuk belajar pada manusia dewasa rata-rata</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">420 juta</h3>
+            <p class="table__text">Jumlah orang dewasa di bawah 25 tahun dengan pendidikan yang kurang memadai untuk mencari pekerjaan</p>
+            <p class="table__text">Bank Dunia, 2017</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">26 tahun</h3>
+            <p class="table__text">Usia Albert Einstein saat ia menerbitkan makalah inovatifnya mengenai relativitas khusus</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">1885</h3>
+            <p class="table__text">Pengembangan teori forgetting curve</p>
+          </li>
+          <li class="table__cell">
+            <h3 class="table__heading">1897</h3>
+            <p class="table__text">Publikasi penelitian Ivan Pavlov tentang pengkondisian klasik</p>
+          </li>
+        </ul>
+      </div>
+        
+        <!-- Section 4 - Feynman -->
+      <div class="feynman">
+        <h1 class="feynman__title">Teknik Feynman</h1>
+        <h2 class="feynman__subtitle">Belajar tanpa lupa</h2>
+        <a href="#" class="feynman__link">Selengkapnya →</a>
+      </div>
 
-            <section class="feynman"></section>
+        <!-- Section 5 - Kaufman -->
+      <div class="kaufman">
+        <h1 class="section-title_theme_dark">Sepuluh prinsip mendapatkan keterampilan dengan cepat</h1>
+        <h2 class="section-subtitle_theme_dark">oleh Josh Kaufman</h2>
+        <ul class="table_theme_dark">
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">1</h3>
+            <p class="table__text_theme_dark">Pilih suatu proyek yang menyenangkan</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">2</h3>
+            <p class="table__text_theme_dark">Konsentrasikan energi Anda pada satu keterampilan di satu waktu</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">3</h3>
+            <p class="table__text_theme_dark">Definisikan target tingkat kemampuan yang ingin Anda raih</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">4</h3>
+            <p class="table__text_theme_dark">Pecah kemampuan yang ingin Anda kuasai menjadi beberapa bagian</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">5</h3>
+            <p class="table__text_theme_dark">Dapatkan alat pendukung yang penting</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">6</h3>
+            <p class="table__text_theme_dark">Hilangkan penghalang untuk berlatih</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">7</h3>
+            <p class="table__text_theme_dark">Luangkan waktu untuk latihan</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">8</h3>
+            <p class="table__text_theme_dark">Ciptakan siklus umpan balik yang cepat</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">9</h3>
+            <p class="table__text_theme_dark">Berlatihlah dengan keras dalam rentang waktu yang singkat</p>
+          </li>
+          <li class="table__cell_theme_dark">
+            <h3 class="table__heading_theme_dark">10</h3>
+            <p class="table__text_theme_dark">Tekankan fokus pada kecepatan dan kuantitas</p>
+          </li>
+        </ul> 
+        <div class="kaufman__triangle">
+          <img src="./images/kaufman-triangle.svg" alt="Segitiga biru besar, di mana Josh Kaufman mengeklaim
+          kepemilikannya">
+        </div>
+      </div>
+    </main>
 
-            <section class="kaufman"></section>
-        </main>
-        <footer class="footer"></footer>
-    </div>
+        <!-- Section 6 - Footer -->
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright">
+          <div class="logo logo_place_footer">
+            <img src="./images/logo_place_footer.png" alt="Footer Logo Practicum">
+          </div>
+          <p class="footer__author">&#169; 2022 Alzam A.</p>
+        </div>
+        <div class="footer__column_content_about">
+          <h3 class="footer__column-heading">Tentang Practicum</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__column-link">Beranda</a></li>
+            <li><a href="#" class="footer__column-link">Misi</a></li>
+            <li><a href="#" class="footer__column-link">Profesi</a></li>
+          </ul>
+        </div>
+        <div class="footer__column_content_social">
+          <h3 class="footer__column-heading">Media sosial</h3>
+          <ul class="footer__list">
+            <li><a href="https://www.instagram.com/alzam1210/" class="footer__column-link">
+              <img src="./images/instagram_white.svg" alt="Ikon Instagram" class="footer__column-link_icon">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

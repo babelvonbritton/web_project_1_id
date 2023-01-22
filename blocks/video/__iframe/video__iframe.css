@@ -5,6 +5,7 @@
     width: 515px;
     height: 316px;
     padding-right: 20px;
+    border: none;
 }
 
 .video__iframe:last-of-type {
@@ -13,4 +14,5 @@
     width: 515px;
     height: 316px;
     padding: 0;
+    border: none;
 }

@@ -1,0 +1,6 @@
+.footer__column-link_icon {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
+}

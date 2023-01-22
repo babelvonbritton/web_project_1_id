@@ -1,0 +1,8 @@
+.table__cell_theme_dark {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* background-color: #1F1F1F; */
+    padding-top: 80px;
+}

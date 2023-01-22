@@ -1,0 +1,6 @@
+.footer__column_content_social {
+    display: flex;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+  }

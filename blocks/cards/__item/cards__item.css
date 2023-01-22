@@ -1,0 +1,18 @@
+.cards__item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    width: 240px;
+    padding-bottom: 60px;
+    /* padding-right: 100px; */
+}
+
+.cards__item:last-of-type {
+    display: flex;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: -30px;
+    left: 37%;
+    /* justify-content: center; */
+}

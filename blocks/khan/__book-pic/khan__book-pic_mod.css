@@ -1,0 +1,7 @@
+.khan__book-pic_mod {
+    display: flex;
+    position: relative;
+    top: 136px;
+    left: 100px;
+    transform: scale(1.5);
+}

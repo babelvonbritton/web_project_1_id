@@ -1,0 +1,7 @@
+.two-columns__paragraph {
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+}

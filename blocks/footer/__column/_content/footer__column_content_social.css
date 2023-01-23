@@ -1,6 +1,8 @@
 .footer__column_content_social {
+    width: 450px;
     display: flex;
     color: white;
-    text-align: center;
+    flex-wrap: wrap;
+    align-content: end;
     flex-direction: column;
-  }
+}

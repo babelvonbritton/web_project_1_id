@@ -4,15 +4,11 @@
     justify-content: center;
     align-content: center;
     width: 240px;
+    margin-right: 100px;
     padding-bottom: 60px;
-    /* padding-right: 100px; */
 }
 
-.cards__item:last-of-type {
+.cards__item:nth-of-type(3n) {
     display: flex;
-    padding-bottom: 0;
-    position: absolute;
-    bottom: -30px;
-    left: 37%;
-    /* justify-content: center; */
+    margin-right: 0;
 }
